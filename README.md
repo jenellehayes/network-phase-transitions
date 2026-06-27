@@ -2,14 +2,13 @@
 
 ## What This Is
 
-This project (Muriel's Theory) simulates a network of N nodes,
-each assigned a fitness value drawn from a lognormal distribution.
-Connections between nodes evolve over time under competing forces:
-fitness-driven reinforcement, decay, saturation, and global pressure.
-At a critical coupling strength κ_c, the network transitions sharply
-from a diffuse state (influence spread across all nodes) to a
-concentrated state (a small number of hub nodes holding most of
-the influence).
+This project simulates a network of N nodes, each assigned a fitness 
+value drawn from a lognormal distribution. Connections between nodes 
+evolve over time under competing forces: fitness-driven reinforcement, 
+decay, saturation, and global pressure. At a critical coupling strength 
+κ_c, the network transitions sharply from a diffuse state (influence 
+spread across all nodes) to a concentrated state (a small number of hub 
+nodes holding most of the influence).
 
 The central question: does this transition exhibit universal behaviour
 across different levels of fitness heterogeneity?
